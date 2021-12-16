@@ -1,0 +1,50 @@
+{
+  "name": "rollup-preact-typescript-tmpl",
+  "version": "1.0.0",
+  "description": "A template repository for projects using Preact and Typescript packaged using Rollup.js",
+  "main": "main.tsx",
+  "scripts": {
+    "test": "jest",
+    "build": "rollup --config --environment NODE_ENV:development",
+    "watch": "rollup --config --watch --environment NODE_ENV:development",
+    "build:prod": "rollup --config --environment NODE_ENV:production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rainewallis/rollup-preact-typescript-tmpl.git"
+  },
+  "keywords": [
+    "rollup",
+    "preact",
+    "typescript",
+    "template"
+  ],
+  "author": "Raine Wallis <raine@rainew.dev>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rainewallis/rollup-preact-typescript-tmpl/issues"
+  },
+  "homepage": "https://github.com/rainewallis/rollup-preact-typescript-tmpl#readme",
+  "devDependencies": {
+    "@rollup/plugin-alias": "^3.1.8",
+    "@rollup/plugin-html": "^0.2.4",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "@rollup/plugin-typescript": "^8.3.0",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/preact": "^2.0.1",
+    "@types/jest": "^27.0.3",
+    "autoprefixer": "^10.4.0",
+    "find": "^0.3.0",
+    "jest": "^27.4.5",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.61.0",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-terser": "^7.0.2",
+    "ts-jest": "^27.1.1",
+    "typed-css-modules": "^0.7.0"
+  },
+  "dependencies": {
+    "preact": "^10.6.4",
+    "preact-router": "^3.2.1"
+  }
+}
